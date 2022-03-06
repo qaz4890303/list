@@ -1,0 +1,9 @@
+/* components/tabs/tabs.wxss */
+.tabs_list{
+    display:flex;
+    justify-content: space-between;
+}
+
+.active{
+    border:1px solid red;
+}

@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<view>
+    <!-- <van-button>sdfsdf</van-button>
+    <van-button type="primary">按钮</van-button>
+    <van-slider value="50" bind:change="onChange" /> -->
+    <Tabs tabsList = "{{tabsList}}" binditemChange = "headleitemChange">
+        <block wx:if="{{tabsList[0].active}}">
+            <view>时代峻峰看来就是打开了房</view>
+        </block>
+        <block wx:else="{{tabsList[1].active}}">
+            <view>时代峻峰看来就是打开fghtfh了房</view>
+        </block>
+    </Tabs>
+</view>
